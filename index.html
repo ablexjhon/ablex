@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ablealem Yohannes - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00bfff;
+}
+
+a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff00ff;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #001f3f, #000);
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 3px solid #00bfff;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: glow 2s infinite alternate;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+    color: #00bfff;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff;
+    }
+    to {
+        text-shadow: 0 0 20px #00bfff, 0 0 30px #00bfff, 0 0 40px #00bfff;
+    }
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #001f3f;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #00bfff;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.project {
+    background: #001f3f;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #00bfff;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #00bfff;
+}
+
+.project p {
+    color: #ccc;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+/* Footer */
+footer {
+    background: #001f3f;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 3px solid #00bfff;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    color: #00bfff;
+}
+    </style>
+    <header>
+        <div class="container">
+            <h1>Ablealem Yohannes</h1>
+            <p>Software Engineer & Web Developer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Ablealem Yohannes, but I go by Ablex. I'm an 18-year-old student from Addis Ababa, Ethiopia, with a passion for software and electronics. My goal is to become the best software engineer in my country. That's my mission, and I'm working hard to make it happen.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Electrical Engineering</li>
+                <li>Web Development</li>
+                <li>Mechanical Theory</li>
+                <li>Marketing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Ethiopian Grade 12 Digital Matric Questions</h3>
+                <p>This project is almost complete and will be presented in the near future. It aims to provide digital access to grade 12 matric questions for students across Ethiopia.</p>
+            </div>
+            <div class="project">
+                <h3>Ethiopian First Electric Car with Self-Regeneration</h3>
+                <p>A future big project to design and build Ethiopia's first electric car that can regenerate its own energy, contributing to sustainable transportation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:Ablexjhon@gmail.com">Ablexjhon@gmail.com</a></p>
+            <p>Phone: <a href="tel:+251982866138">+251 982 866 138</a></p>
+            <p>Instagram: <a href="https://instagram.com/ablexjohn" target="_blank">@ablexjohn</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ablealem Yohannes. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
